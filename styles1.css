@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+.container-imagens{
+    position: relative;
+    
+}
+
+.img-celular {
+    width: 450px;
+}
+.imagen-celular{
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    right: 36px;
+    bottom: 72px;
+    transition: opacity 2s ease-in-out;
+    
+}
+
+.container-itens {
+    width: 350px;
+
+
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background #ffffff;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background-color: #dbdbdb;
+}
+
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+    color: #262626;
+}
+
+button {
+    background: #0095f6;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-facebook {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link-cadastro {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.paragrafo-conta {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.container-app{
+    display: flex;
+    justify-content: center;
+}
+.logo-app{
+    width: 200px;
+    gap: 10px;
+}
